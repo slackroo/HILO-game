@@ -1,7 +1,8 @@
 import random
-
+print('-'*60)
 print('Welcome to the HI-Lo game')
 print('You got 6 tries')
+print('-'*60)
 tries = 1
 guess_no = random.randint(1, 100)
 while tries < 10:
